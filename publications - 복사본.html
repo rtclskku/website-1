@@ -1,0 +1,537 @@
+
+<!DOCTYPE html>
+<html lang="en" style="" class=" js no-touch csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>RTCL@SKKU</title>
+
+        <meta name="author" content="Jinkyu Lee">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="RTCL@SKKU website">
+
+        <!--CSS styles-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link id="theme-style" rel="stylesheet" href="css/default.css">
+
+        <!--Javascript files-->
+        <!-- <script async="" src="./scripts/analytics.js"></script> -->
+        <script src="https://kit.fontawesome.com/948a5e0f40.js"></script>
+        <script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="scripts/TweenMax.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery.touchSwipe.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery.carouFredSel-6.2.1-packed.js"></script>
+        <script type="text/javascript" src="scripts/modernizr.custom.63321.js"></script>
+        <script type="text/javascript" src="scripts/jquery.dropdownit.js"></script>
+        <script type="text/javascript" src="scripts/ScrollToPlugin.min.js"></script>
+        <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery.mixitup.min.js"></script>
+        <script type="text/javascript" src="scripts/masonry.min.js"></script>
+        <script type="text/javascript" src="scripts/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery.nicescroll.min.js"></script>
+        <script type="text/javascript" src="scripts/magnific-popup.js"></script>
+        <script type="text/javascript" src="scripts/custom.js"></script>
+
+
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <a href="#sidebar" class="mobilemenu"><i class="fa fa-reorder"></i></a>
+            <div id="sidebar">
+                <div id="sidebar-wrapper">
+                    <div id="sidebar-inner">
+                        <!-- Profile/logo section-->
+                        <div id="profile" class="clearfix">
+                            <!--<div class="portrate hidden-xs"></div>-->
+                            <div class="title">
+                                <br>
+                                <h2>Real-Time Computing Laborotory</h2>
+                                <br>
+                                <h3>Sungkyunkwan University (SKKU)</h3>
+                                <br>
+                            </div>
+                        </div>
+                        <!-- /Profile/logo section-->
+
+                        <!-- Main navigation-->
+                        <div id="main-nav" style="padding-bottom: 33px;">
+                            <ul id="navigation">
+                                <li class="currentmenu">
+                                  <a href="index.html">
+                                    <i class="fa fa-institution"></i>
+                                    <div class="text">RTCL@SKKU</div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a href="jinkyulee.html">
+                                    <i class="fa fa-user"></i>
+                                    <div class="text">Prof. Jinkyu Lee</div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a href="jinkyulee.html">
+                                    <!--<i class="fa fa-user-plus"></i>-->
+                                    <i class="fa fa-group"></i>
+                                    <div class="text">Members</div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a href="research.html">
+                                    <!--<i class="fa fa-book"></i>-->
+                                    <!--<i class="fa fa-laptop"></i>-->
+                                    <i class="fa fa-book"></i>
+                                    <div class="text">Research</div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a href="publications.html">
+                                    <i class="fa fa-edit"></i>
+                                    <div class="text">Publications</div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a href="courses.html">
+                                    <i class="fa fa-chalkboard-teacher"></i>
+                                    <div class="text">Courses</div>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a href="recruit.html">
+                                    <!--<i class="fa fa-handshake-o"></i>-->
+                                    <i class="fa fa-id-badge"></i>
+                                    <div class="text">Recruit</div>
+                                  </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="sidebar-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="main">
+                 <div id="publications" class="page">
+                    <div class="page-container">
+                        <div class="pageheader">
+                            <div class="headercontent">
+                                <div class="section-container">
+
+                                    <h2 class="title">Publications</h2>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p>
+                                                Below is a comprehensive list of my publications and patents.
+                                                <br>
+                                                You can also check out my Google Scholar <a href="https://scholar.google.com/citations?user=PZOHIxAAAAAJ&hl=en&oi=sra" target="_blank">page</a>.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pagecontents">
+                            <div class="section color-1" id="filters">
+                                <div class="section-container">
+                                    <div class="row">
+                                        
+                                        <div class="col-md-3">
+                                            <h3>Filter by type:</h3>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+                                                
+                                                <option class="filter" value="all" selected>All types</option>
+                                                <!-- <option class="filter" value="bookchapter">Dissertation</option> -->
+                                                <option class="filter" value="cpaper">Conference Papers</option>
+                                                <!-- <option class="filter" value="jpaper">Jounal Papers</option> -->
+                                                <option class="filter" value="book">Patents</option>     <!-- patent subs for books, in code not in general.-->
+                                                <option class="filter" value="report">Preprints</option> <!-- report subs for preprints, in code not in general.-->
+                                                <!-- <option class="filter" value="tpaper">Technical Papers</option> -->
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="col-md-3" id="sort">
+                                            <span>Sort by year:</span>
+                                            <div class="btn-group pull-right"> 
+                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="fa fa-sort-numeric-asc"></i></button>
+                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="fa fa-sort-numeric-desc"></i></button>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section color-2" id="pub-grid">
+                                <div class="section-container">
+                                    
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="pitems">
+
+                                                <!-------------------------------- CONFERENCE -------------------------------->
+                                                <div class="item mix cpaper" data-year="2019">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a>
+                                                            <a href="https://github.com/mit-ll/nemo" class="tooltips" title="Nemo Repository" target="_blank">
+                                                                <i class="fab fa-github"></i>
+                                                            </a>
+                                                            <a href="https://github.com/mit-ll/gds2-score" class="tooltips" title="GDS2-Score Repository" target="_blank">
+                                                                <i class="fab fa-github"></i>
+                                                            </a>
+                                                            <a href="https://youtu.be/nDkFu9R3TAQ" class="tooltips" title="Summary Video" target="_blank">
+                                                                <i class="fa fa-file-video-o"></i>
+                                                            </a>
+                                                            <a href="https://www.youtube.com/watch?v=cBME5aUhPeY" class="tooltips" title="Presentation" target="_blank">
+                                                                <i class="fa fa-file-video-o"></i>
+                                                            </a>
+                                                            <a href="https://www.computer.org/csdl/proceedings-article/sp/2020/349700b078/1j2Lg5Bu6aY" class="tooltips" title="Download" target="_blank">
+                                                                <i class="fa fa-cloud-download"></i>
+                                                            </a>
+                                                        </div>
+
+                                                        <h4 class="pubtitle">ICAS: an Extensible Framework for Estimating the Susceptibility of IC Layouts to Additive Trojans</h4>
+                                                        <div class="pubauthor"><strong>Timothy Trippel</strong>, Kang G. Shin, Kevin B. Bush, Matthew Hicks</div>
+                                                        <div class="pubcite">
+                                                            <span class="label label-success">Conference</span>
+                                                            The 41st IEEE Symposium on Security & Privacy <strong>(Oakland)</strong>, San Francisco, CA, May 2020. (Acceptance Rate: 12.3%)
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                            The transistors used to construct Integrated Circuits (ICs) continue to shrink. 
+                                                            While this shrinkage improves performance and density, it also reduces trust: 
+                                                            the price to build leading-edge fabrication facilities has skyrocketed, forcing 
+                                                            even nation states to outsource the fabrication of high-performance ICs. 
+                                                            Outsourcing fabrication presents a security threat because the black-box nature 
+                                                            of a fabricated IC makes comprehensive inspection infeasible. Since prior work 
+                                                            shows the feasibility of fabrication-time attackers' evasion of existing post-
+                                                            fabrication defenses, IC designers must be able to protect their physical designs 
+                                                            before handing them off to an untrusted foundry. To this end, recent work suggests 
+                                                            methods to harden IC layouts against attack. Unfortunately, no tool exists to assess 
+                                                            the effectiveness of the proposed defenses, thus leaving defensive gaps.
+                                                            <br>
+                                                            <br>
+                                                            This paper presents an extensible IC layout security analysis tool called 
+                                                            IC Attack Surface (ICAS) that quantifies defensive coverage. 
+                                                            For researchers, ICAS identifies gaps for future defenses to target, and 
+                                                            enables the quantitative comparison of existing and future defenses. For practitioners, 
+                                                            ICAS enables the exploration of the impact of design decisions on an IC's 
+                                                            resilience to fabrication-time attack. ICAS takes a set of metrics that 
+                                                            encode the challenge of inserting a hardware Trojan into an IC layout, a set 
+                                                            of attacks that the defender cares about, and a completed IC layout and reports 
+                                                            the number of ways an attacker can add each attack to the design. While the 
+                                                            ideal score is zero, practically, we find that lower scores correlate with 
+                                                            increased attacker effort.
+                                                            <br>
+                                                            <br>
+                                                            To demonstrate ICAS' ability to reveal defensive gaps, we analyze over 60 
+                                                            layouts of three real-world hardware designs (a processor, AES and DSP 
+                                                            accelerators), protected with existing defenses. We evaluate the effectiveness 
+                                                            of each circuit--defense combination against three representative attacks 
+                                                            from the literature. Results show that some defenses are ineffective and 
+                                                            others, while effective at reducing the attack surface, leave 10's to 1000's 
+                                                            of unique attack implementations that an attacker can exploit.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix cpaper" data-year="2017">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a>
+                                                            <a href="https://www.youtube.com/watch?v=Dfc3jZkcnLU" class="tooltips" title="Summary Video" target="_blank">
+                                                                <i class="fa fa-file-video-o"></i>
+                                                            </a>
+                                                            <a href="https://www.youtube.com/watch?v=C8aZ5nBmKH0" class="tooltips" title="Phone Demo Video" target="_blank">
+                                                                <i class="fa fa-file-video-o"></i>
+                                                            </a>
+                                                            <a href="https://www.youtube.com/watch?v=aedOf3cZnEI" class="tooltips" title="Fitbit Demo Video" target="_blank">
+                                                                <i class="fa fa-file-video-o"></i>
+                                                            </a>
+                                                            <a href="https://spqr.eecs.umich.edu/walnut/" class="tooltips" title="Project Website" target="_blank">
+                                                                <i class="fa fa-external-link"></i>
+                                                            </a>
+                                                            <!-- <a href="slides/pets-2016-prlbs-online.pptx" class="tooltips" title="Slides" target="_blank">
+                                                                <i class="fa fa-slideshare"></i>
+                                                            </a> -->
+                                                            <a href="https://spqr.eecs.umich.edu/papers/trippel-IEEE-oaklawn-walnut-2017.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="fa fa-cloud-download"></i>
+                                                            </a>
+                                                        </div>
+
+                                                        <h4 class="pubtitle">WALNUT: Waging Doubt on the Integrity of MEMS Accelerometers with Acoustic Injection Attacks</h4>
+                                                        <div class="pubauthor"><strong>Timothy Trippel</strong>, Ofir Weisse, Wenyuan Xu, Peter Honeyman, and Kevin Fu</div>
+                                                        <div class="pubcite">
+                                                            <span class="label label-success">Conference</span>
+                                                            The 2nd IEEE European Symposium on Security & Privacy <strong>(EuroS&P)</strong>, Paris, France, April 2017. (Acceptance Rate: 19.6%)
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                            Cyber-physical systems depend on sensors to make
+                                                            automated decisions. Resonant acoustic injection attacks are 
+                                                            already known to cause malfunctions by disabling MEMS-based
+                                                            gyroscopes. However, an open question remains on how to move
+                                                            beyond denial of service attacks to achieve full adversarial
+                                                            control of sensor outputs. Our work investigates how analog
+                                                            acoustic injection attacks can damage the digital integrity of a
+                                                            popular type of sensor: the capacitive MEMS accelerometer.
+                                                            Spoofing such sensors with intentional acoustic interference
+                                                            enables an out-of-spec pathway for attackers to deliver chosen
+                                                            digital values to microprocessors and embedded systems that
+                                                            blindly trust the unvalidated integrity of sensor outputs. Our
+                                                            contributions include (1) modeling the physics of malicious
+                                                            acoustic interference on MEMS accelerometers, (2) discovering
+                                                            the circuit-level security flaws that cause the vulnerabilities by
+                                                            measuring acoustic injection attacks on MEMS accelerometers
+                                                            as well as systems that employ on these sensors, and (3) two
+                                                            software-only defenses that mitigate many of the risks to the
+                                                            integrity of MEMS accelerometer outputs.
+                                                            <br>
+                                                            <br>
+                                                            We characterize two classes of acoustic injection attacks
+                                                            with increasing levels of adversarial control: output biasing
+                                                            and output control. We test these attacks against 20 models
+                                                            of capacitive MEMS accelerometers from 5 different manufacturers. 
+                                                            Our experiments find that 75% are vulnerable to
+                                                            output biasing, and 65% are vulnerable to output control. To
+                                                            illustrate end-to-end implications, we show how to inject fake
+                                                            steps into a Fitbit with a $5 speaker. In our self-stimulating
+                                                            attack, we play a malicious music file from a smartphone¡¯s
+                                                            speaker to control the on-board MEMS accelerometer trusted
+                                                            by a local app to pilot a toy RC car. In addition to offering
+                                                            hardware design suggestions to eliminate the root causes of
+                                                            insecure amplification and filtering, we introduce two lowcost software 
+                                                            defenses that mitigate output biasing attacks:
+                                                            randomized sampling and 180&deg; out-of-phase sampling. These
+                                                            software-only approaches mitigate attacks by exploiting the
+                                                            periodic and predictable nature of the malicious acoustic
+                                                            interference signal. Our results call into question the wisdom
+                                                            of allowing microprocessors and embedded systems to blindly
+                                                            trust that hardware abstractions alone will ensure the integrity
+                                                            of sensor outputs.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <!-------------------------------- PREPRINT -------------------------------->
+                                                <div class="item mix report" data-year="2019">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a>
+                                                            <a href="https://arxiv.org/pdf/1906.08842.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="fa fa-cloud-download"></i>
+                                                            </a>
+                                                        </div>
+
+                                                        <h4 class="pubtitle">Defensive Routing: a Preventive Layout-Level Defense Against Untrusted Foundries</h4>
+                                                        <div class="pubauthor"><strong>Timothy Trippel</strong>, Kang G. Shin, Kevin B. Bush, and Matthew Hicks</div>
+                                                        <div class="pubcite">
+                                                            <span class="label label-warning">Preprint</span>
+                                                            CoRR, abs/1906.08842, June 2019.
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                            Since the inception of the integrated circuit (IC), the size of the
+                                                            transistors used to construct them continually shrink. While this
+                                                            advancement significantly improves computing capability, the associated 
+                                                            massive complexity forces IC designers to outsource fabrication. 
+                                                            Outsourcing presents a security threat: comprehensive
+                                                            post-fabrication inspection is infeasible given the size of modern
+                                                            ICs, thus it is nearly impossible to know if the foundry has altered 
+                                                            your design during fabrication (i.e., inserted a hardware Trojan). 
+                                                            Defending against a foundry-side adversary is challenging
+                                                            because?with as little as two gates?hardware Trojans can completely 
+                                                            undermine software security. Prior work attempts to both
+                                                            detect and prevent such foundry-side attacks, but all existing defenses 
+                                                            are ineffective against the most advanced hardware Trojans.
+                                                            <br>
+                                                            <br>
+                                                            We present Defensive Routing (DR), a preventive layout-level
+                                                            defense against untrusted foundries, capable of thwarting the insertion 
+                                                            of even the stealthiest hardware Trojans. DR is directed and
+                                                            routing-centric: it prevents foundry-side attackers from connecting
+                                                            rogue wires to security-critical wires by shielding them with guard
+                                                            wires. Unlike shield wires commonly deployed for cross-talk reduction, 
+                                                            DR guard wires present an additional technical challenge: they
+                                                            must be tamper-evident in both the digital and analog domains. To
+                                                            address this challenge, we present two different categories of guard
+                                                            wires: natural and synthetic. Natural guard wires are comprised of
+                                                            pre-existing wires that we route adjacent to security-critical wires,
+                                                            while synthetic guard wires are added to the design specifically
+                                                            to protect security-critical wires. Natural guard wires require no
+                                                            additional hardware and are digitally tamper-evident. Synthetic
+                                                            guard wires require additional hardware, but are tamper-evident in
+                                                            both the digital and analog domains.
+                                                            <br>
+                                                            <br>
+                                                            We implement automated tools for deploying both types of guard
+                                                            wires in IC layouts of commercial complexity. We evaluate the protections 
+                                                            provided by both natural and synthetic guard wires across
+                                                            thee different IC designs: a processor and AES and DSP accelerators.
+                                                            We then compare the efficacy of DR to existing placement-centric
+                                                            layout-level defenses. DR is shown to successfully defend against
+                                                            even the stealthiest hardware Trojans, across several designs, with
+                                                            less than 1% power, performance, and area overheads.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix report" data-year="2019">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a>
+                                                            <a href="https://github.com/mit-ll/nemo" class="tooltips" title="Nemo Repository" target="_blank">
+                                                                <i class="fab fa-github"></i>
+                                                            </a>
+                                                            <a href="https://github.com/mit-ll/gds2-score" class="tooltips" title="GDS2-Score Repository" target="_blank">
+                                                                <i class="fab fa-github"></i>
+                                                            </a>
+                                                            <a href="https://arxiv.org/pdf/1906.08836.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="fa fa-cloud-download"></i>
+                                                            </a>
+                                                        </div>
+
+                                                        <h4 class="pubtitle">An Extensible Framework for Quantifying the Coverage of Defenses Against Untrusted Foundries</h4>
+                                                        <div class="pubauthor"><strong>Timothy Trippel</strong>, Kang G. Shin, Kevin B. Bush, and Matthew Hicks</div>
+                                                        <div class="pubcite">
+                                                            <span class="label label-warning">Preprint</span>
+                                                            CoRR, abs/1906.08836, June 2019.
+                                                        </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                            The transistors used to construct Integrated Circuits (ICs) continue
+                                                            to shrink. While this shrinkage improves performance and density,
+                                                            it also reduces trust: the price to build leading-edge fabrication
+                                                            facilities has skyrocketed, forcing even nation states to outsource
+                                                            the fabrication of high-performance ICs. Outsourcing fabrication
+                                                            presents a security threat because the black-box nature of a fabricated 
+                                                            IC makes comprehensive inspection infeasible. Since prior
+                                                            work shows the feasibility of fabrication-time attackers¡¯ evasion of
+                                                            existing post-fabrication defenses, IC designers must be able to protect 
+                                                            their physical designs before handing them off to an untrusted
+                                                            foundry. To this end, recent work suggests methods to harden IC
+                                                            layouts against attack. Unfortunately, no tool exists to assess the
+                                                            effectiveness of the proposed defenses?meaning gaps may exist.
+                                                            <br>
+                                                            <br>
+                                                            This paper presents an extensible IC layout security analysis tool
+                                                            called IC Attack Surface (ICAS) that quantifies defensive coverage.
+                                                            For researchers, ICAS identifies gaps for future defenses to target,
+                                                            and enables the quantitative comparison of existing and future
+                                                            defenses. For practitioners, ICAS enables the exploration of the
+                                                            impact of design decisions on an IC¡¯s resilience to fabrication-time
+                                                            attack. ICAS takes a set of metrics that encode the challenge of
+                                                            inserting a hardware Trojan into an IC layout, a set of attacks that
+                                                            the defender cares about, and a completed IC layout and reports
+                                                            the number of ways an attacker can add each attack to the design.
+                                                            While the ideal score is zero, practically, our experience is that
+                                                            lower scores correlate with increased attacker effort.
+                                                            <br>
+                                                            <br>
+                                                            To demonstrate ICAS¡¯ ability to reveal defensive gaps, we analyze
+                                                            over 60 layouts of three real-world hardware designs (a processor
+                                                            and AES and DSP accelerators), protected with existing defenses.
+                                                            We evaluate the effectiveness of each circuit/defense combination
+                                                            against three attacks from the literature. Results show that some
+                                                            defenses are ineffective and others, while effective at reducing the
+                                                            attack surface, leave 10¡¯s to 1000¡¯s of unique attack implementations
+                                                            for an attacker to exploit.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <!-------------------------------- PATENTS -------------------------------->
+                                                <div class="item mix book" data-year="2019">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            <!-- <a href="https://patents.google.com/patent/WO2017201409A1/en" class="tooltips" title="External link" target="_blank">
+                                                                <i class="fa fa-external-link"></i>
+                                                            </a> -->
+                                                        </div>
+
+                                                        <h4 class="pubtitle">
+                                                            Integrated Circuit (IC) Portholes and Related Techniques
+                                                        </h4>
+                                                        <div class="pubauthor">Kevin B. Bush, Matthew D. Hicks, and <strong>Timothy Trippel</strong></div>
+                                                        <div class="pubcite">
+                                                            <span class="label label-primary">Patent</span> US Patent App. 16/597,013; Filing Date: Oct. 9, 2019.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix book" data-year="2019">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            <!-- <a href="https://patents.google.com/patent/WO2017201409A1/en" class="tooltips" title="External link" target="_blank">
+                                                                <i class="fa fa-external-link"></i>
+                                                            </a> -->
+                                                        </div>
+
+                                                        <h4 class="pubtitle">
+                                                            Defensive Routing and Related Techniques
+                                                        </h4>
+                                                        <div class="pubauthor">Kevin B. Bush, Matthew D. Hicks, and <strong>Timothy Trippel</strong></div>
+                                                        <div class="pubcite">
+                                                            <span class="label label-primary">Patent</span> US Patent App. 16/598,293; Filing Date: Oct. 9, 2019.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item mix book" data-year="2018">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            <a href="https://patents.google.com/patent/WO2017201409A1/en" class="tooltips" title="External link" target="_blank">
+                                                                <i class="fa fa-external-link"></i>
+                                                            </a>
+                                                        </div>
+
+                                                        <h4 class="pubtitle">
+                                                            Protecting Motion Sensors from Acoustic Injection Attack
+                                                        </h4>
+                                                        <div class="pubauthor">Kevin Fu, Peter Honeyman, <strong>Timothy Trippel</strong>, and Ofir Weisse</div>
+                                                        <div class="pubcite">
+                                                            <span class="label label-primary">Patent</span> US Patent App. 16/303,495; Published: Nov. 29, 2018.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <h4>Disclaimer:</h4>
+                                            <small> This material is presented to ensure timely dissemination of scholarly and technical work. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms and constraints invoked by each author's copyright. In most cases, these works may not be reposted without the explicit permission of the copyright holder.
+                                            </small>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>    
+</body></html>
