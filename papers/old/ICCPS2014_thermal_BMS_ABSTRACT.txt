@@ -1,0 +1,11 @@
+Electric vehicles (EVs) are powered by a large number of battery cells, requiring an effective battery management system (BMS) to maintain the battery cells in an operational condition while providing the necessary
+power efficiently. Temperature is one of the most important factors for battery operation, and existing BMSes
+have thus employed simple thermal management policies so as to prevent battery cells from very high and low temperatures which may likely cause their explosion and malfunction, respectively. In this paper, we
+study thermo-physical characteristics of battery cells, and design a battery thermal management system that
+achieves efficiency and reliability by active thermal cotrols. 
+
+We first analyze the effect of a temperature change on the basic operation of a battery cell. We then show how
+it can cause thermal and general problems, e.g., a thermal runaway that results in explosion of battery cells,
+and unbalanced state of charge (SoC) that degrades battery cells¡¯ performance. Based on this understanding
+of thermal behavior, we finally develop temperaturecontrol approaches which are then used to design a battery
+thermal management system. Our simulation results demonstrate that the proposed thermal management system improves battery performance by up to 58.4% without compromising reliability over the existing simple thermal management.
