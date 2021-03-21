@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" style="" class=" js no-touch csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
         <title>RTCL@SKKU</title>
@@ -45,7 +44,7 @@
                             <!--<div class="portrate hidden-xs"></div>-->
                             <div class="title">
                                 <br>
-                                <h2>Real-Time Computing Laborotory</h2>
+                                <h2>Real-Time Computing Laboratory</h2>
                                 <br>
                                 <h3>Sungkyunkwan University (SKKU)</h3>
                                 <br>
@@ -126,7 +125,7 @@
                                     <h2 class="title">Publications</h2>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <h4><p>Selected International Conference Papers: &nbsp  <b>RTSS</b> 14, <b>RTAS</b> 4, <b>ECRTS</b> 1, <b>EMSOFT</b> 1, <b>ICCPS</b> 2, <b>e-Energy</b> 1</p>
+                                            <h4><p>Selected International Conference Papers: &nbsp  <b>RTSS</b> 15, <b>RTAS</b> 5, <b>ECRTS</b> 1, <b>EMSOFT</b> 1, <b>ICCPS</b> 2, <b>e-Energy</b> 1</p>
                                             <p>Selected International Journal Papers: &nbsp  <b>TPDS</b> 6, <b>TC</b> 3, <b>TSE</b> 1, <b>IoT-J</b> 2, <b>TECS</b> 1, <b>TVCG</b> 1, <b>RTSJ</b> 1, <b>JSS</b> 8, <b>TVT</b> 1</p></h4>
                                             <br>
                                         </div>
@@ -145,17 +144,20 @@
                                         </div>
                                         <div class="col-md-6">
                                             <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+
                                                 
-                                                <option class="filter" value="spaper" selected>Selected Publications</option>
+                                                <option class="filter" value="spaper">Selected Publications</option>
                                                 <option class="filter" value="jpaper">International Jounal Papers</option>
                                                 <option class="filter" value="cpaper">International Conference Papers</option>
-                                                <option class="filter" value="others">Others</option>
+                                                <option class="filter" value="others">Editorials</option>
                                                 <option class="filter" value="all" selected>All Publications</option>
+
                                             </select>
                                         </div>
                                         
                                         <div class="col-md-3" id="sort">
-                                            <span>Sort by year:</span>
+                                            <span>Sort by year
+                                            </span>
                                             <div class="btn-group pull-right"> 
                                                 <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="fa fa-sort-numeric-asc"></i></button>
                                                 <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="fa fa-sort-numeric-desc"></i></button>
@@ -173,6 +175,86 @@
                                             <div class="pitems">
                                             <ol reversed="reversed" class="normal">
 <!-------------------------------- Selected -------------------------------->
+
+
+                                                <div class="item mix cpaper spaper" data-year="202105">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a>
+                                                            <!--<a href="" class="tooltips" title="Bib" target="_blank">
+                                                                <i class="fa fa-file-alt"></i>
+                                                            </a>-->
+                                                            <a href="" class="tooltips" title="Link" target="_blank">
+                                                                <i class="fa fa-external-link"></i>
+                                                            </a>
+                                                            <a href="" class="tooltips" title="Download" target="_blank">
+                                                                <i class="fa fa-cloud-download"></i>
+                                                            </a>
+                                                        </div>
+                                                        <h4 class="pubtitle"><li>ML for RT: Priority Assignment Using Machine Learning</h4>
+                                                        <div class="pubauthor"> Seunghoon Lee, Hyeongboo Baek, Honguk Woo, Kang G. Shin, and <strong>Jinkyu Lee</strong>   </div>
+                                                        <div class="pubcite">The 27th IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), Virtual, May 2021  </div>
+                                                        <span class="label label-primary">Selected</span><span class="label label-warning">Conference Paper</span>
+                                                    </div>     
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                           As machine learning (ML) has been proven effective in solving various problems, researchers in the real-time systems (RT) community have recently paid increasing attention to ML. While most of them focused on timing issues for ML applications (i.e., RT for ML), only a little has been done on the use ML for solving fundamental RT problems. In this paper, we aim at utilizing ML to solve a fundamental RT problem of priority assignment for global fixed-priority preemptive (gFP) scheduling on a multiprocessor platform. This problem is known to be challenging in the case of a large number (n) of tasks in a task set because exhaustive testing of all priority assignments (as many as n!) is intractable and existing heuristics cannot find a schedulable priority assignment, even if exists, for a number of task sets. We systematically incorporate RT domain knowledge into ML and develop an ML framework tailored to the problem, called PAL. First, raising and addressing technical issues including neural architecture selection and training sample regulation, we enable PAL to infer a schedulable priority assignment of a set of n tasks, by training PAL with same-size (i.e., with n tasks) samples each of whose schedulable priority assignment has already been identified. Second, considering the exhaustive testing of all priority assignments of each task set with large n makes it intractable to provide training samples to PAL, we derive inductive properties that can generate training samples with large n from those with small n, through empirical observation of PAL and mathematical analysis of the target gFP schedulability test. Finally, utilizing the inductive properties and additional techniques, we propose how to systematically implement PAL whose training sample generation process not only yields unbiased samples but also is tractable even for large n. Our experimental results demonstrate PAL covers a number of additional task sets, each of which has never been proven schedulable by any existing approaches for gFP.
+                                                        </p>
+                                                        <br>
+                                                        <h4>Bibtex</h4>
+                                                        <p>
+                                                        </p>
+                                                        <br>
+                                                        <h4>Conference Information</h4>
+                                                        <p>
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="item mix cpaper spaper" data-year="202012">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a>
+                                                            <!--<a href="" class="tooltips" title="Bib" target="_blank">
+                                                                <i class="fa fa-file-alt"></i>
+                                                            </a>-->
+                                                            <a href="https://doi.org/10.1109/RTSS49844.2020.00020" class="tooltips" title="Link" target="_blank">
+                                                                <i class="fa fa-external-link"></i>
+                                                            </a>
+                                                            <a href="./papers/IC202012BKL.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="fa fa-cloud-download"></i>
+                                                            </a>
+                                                        </div>
+                                                        <h4 class="pubtitle"><li>Non-Preemptive Real-Time Multiprocessor Scheduling Beyond Work-Conserving </h4>
+                                                        <div class="pubauthor"> Hyeongboo Baek, Jaeheon Kwak, and <strong>Jinkyu Lee</strong>   </div>
+                                                        <div class="pubcite">The 41st IEEE Real-Time Systems Symposium (RTSS), pp. 102-114, Virtual, December 2020 (Acceptance ratio: 28/140=20.0%) </div>
+                                                        <span class="label label-primary">Selected</span><span class="label label-warning">Conference Paper</span>
+                                                    </div>     
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p> Although essential for inherently non-preemptive tasks and favorable to tasks with large preemption/migration overheads, non-preemptive scheduling has not been thoroughly studied compared to preemptive scheduling. In particular, existing studies for non-preemptive scheduling could not effectively exploit being non-work-conserving (i.e., idling processor(s) intentionally), failing to achieve its full schedulability capability. In this paper, we propose the first non-preemptive scheduling framework that covers work-conserving-infeasible task sets (each of which is proven unschedulable by every work-conserving non-preemptive scheduling), without knowledge of future release patterns of tasks (i.e., called clairvoyance). To this end, we first discover the following principle: without clairvoyance, it is impossible to generate a feasible schedule for work-conserving-infeasible task sets on a uniprocessor platform. To make it possible on a multiprocessor platform, we design the NWC(N)-NP-* framework that systematicaly idles up to N processors so as to enable N designated tasks (that yield work-conserving-infeasibility) to be schedulable without clairvoyance, and derive important properties of the framework. We then target the framework associated with fixedpriority scheduling (as a prioritization policy), and develop its schedulability test by utilizing the framework's properties. Our simulation results demonstrate that the proposed framework successfully covers a number of work-conserving-infeasible task sets, none of which can be deemed schedulable by any previous approach. 
+                                                            
+                                                        </p>
+                                                        <br>
+                                                        <h4>Bibtex</h4>
+                                                        <p>
+                                                        </p>
+                                                        <br>
+                                                        <h4>Conference Information</h4>
+                                                        <p>
+                                                        </p>
+                                                    </div>  
+                                                </div>
+                                                
+                                                
+                                                
                                                 <div class="item mix jpaper spaper" data-year="202008">
                                                     <div class="pubmain">
                                                       <div class="pubassets">
@@ -191,7 +273,7 @@
                                                         </div>
                                                         <h4 class="pubtitle"><li>Power Guarantee for Electric Systems Using Real-Time Scheduling</h4>
                                                         <div class="pubauthor"> Eugene Kim, Youngmoon Lee, Liang He, Kang Shin, and <strong>Jinkyu Lee</strong></div>
-                                                        <div class="pubcite">IEEE Transactions on Parallel and Distributed Systems (TPDS), Volume 31, Issue 8, pp. 1783-1798, Auguest 2020 (Extended version of RTSS 2016)</div>
+                                                        <div class="pubcite">IEEE Transactions on Parallel and Distributed Systems (TPDS), Volume 31, Issue 8, pp. 1783-1798, August 2020 (Extended version of RTSS 2016)</div>
                                                         <span class="label label-primary">Selected</span><span class="label label-success">Journal Paper</span>
                                                     </div>
                                                     <div class="pubdetails">
@@ -1988,13 +2070,13 @@ In this paper, we propose an efficient way of predicting the power requirements 
                                                             <a href="https://doi.org/10.1109/LES.2020.2966681" class="tooltips" title="Link" target="_blank">
                                                                 <i class="fa fa-external-link"></i>
                                                             </a>
-                                                            <a href="./papers/.pdf" class="tooltips" title="Download" target="_blank">
+                                                            <a href="./papers/IJ202012BaLe.pdf" class="tooltips" title="Download" target="_blank">
                                                                 <i class="fa fa-cloud-download"></i>
                                                             </a>
                                                         </div>
                                                         <h4 class="pubtitle"><li>Improved Schedulability Test for Non-preemptive Fixed-Priority Scheduling on Multiprocessors   </h4>
                                                         <div class="pubauthor">  Hyeongboo Baek and <strong>Jinkyu Lee</strong>  </div>
-                                                        <div class="pubcite">To appear in IEEE Embedded Systems Letters, 2020  </div>
+                                                        <div class="pubcite">IEEE Embedded Systems Letters, Volume 12, Issue 4, pp. 129-132, December 2020     </div>
                                                         <span class="label label-success">Journal Papers</span>
                                                      
                                                     </div>     
@@ -2028,13 +2110,13 @@ In this paper, we propose an efficient way of predicting the power requirements 
                                                             <a href="https://doi.org/10.1007/s00779-019-01337-7" class="tooltips" title="Link" target="_blank">
                                                                 <i class="fa fa-external-link"></i>
                                                             </a>
-                                                            <a href="./papers/.pdf" class="tooltips" title="Download" target="_blank">
+                                                            <a href="./papers/IJ202010KLW.pdf" class="tooltips" title="Download" target="_blank">
                                                                 <i class="fa fa-cloud-download"></i>
                                                             </a>
                                                         </div>
                                                         <h4 class="pubtitle"><li>SmartGrip: Grip Sensing System for Commodity Mobile Devices Through Sound Signals    </h4>
                                                         <div class="pubauthor"> Namhyun Kim, Junseong Lee, Joyce Jiyoung Whang, and  <strong>Jinkyu Lee</strong>  </div>
-                                                        <div class="pubcite">To appear in Personal and Ubiquitous Computing, 2020  </div>
+                                                        <div class="pubcite">Personal and Ubiquitous Computing, Volume 24, Issue 5, pp. 643-654, October 2020     </div>
                                                         <span class="label label-success">Journal Papers</span>
                                                     </div>     
                                                     <div class="pubdetails">
@@ -2050,6 +2132,44 @@ In this paper, we propose an efficient way of predicting the power requirements 
                                                         <h4>Journal Information</h4>
                                                         <p>
                                                         ISSN: 1617-4909
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="item mix jpaper" data-year="202009">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a>
+                                                            <!--<a href="" class="tooltips" title="Bib" target="_blank">
+                                                                <i class="fa fa-file-alt"></i>
+                                                            </a>-->
+                                                            <a href="https://doi.org/10.3390/math8091579" class="tooltips" title="Link" target="_blank">
+                                                                <i class="fa fa-external-link"></i>
+                                                            </a>
+                                                            <a href="./papers/IJ202009Lee.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="fa fa-cloud-download"></i>
+                                                            </a>
+                                                        </div>
+                                                        <h4 class="pubtitle"><li>Cooperative and Non-Cooperative Frameworks with Utility Function Design for Intermediate Deadline Assignment in Real-Time Distributed Systems    </h4>
+                                                        <div class="pubauthor"> <strong>Jinkyu Lee</strong>  </div>
+                                                        <div class="pubcite">Mathematics, Volume 8, Issue 9, pp. 1579:1-13, September 2020     </div>
+                                                        <span class="label label-success">Journal Papers</span>
+                                                    </div>     
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+                                                           In real-time distributed systems, it is important to provide offline guarantee for an upper-bound of each real-time task's end-to-end delay, which has been achieved by assigning proper intermediate deadlines of individual real-time tasks at each node. Although existing studies have succeeded to utilize mathematical theories of distributed computation/control for intermediate deadline assignment, they have assumed that every task operates in a cooperative manner, which does not always hold for real-worlds. In addition, existing studies have not addressed how to exploit a trade-off between end-to-end delay fairness among real-time tasks and performance for minimizing aggregate end-to-end delays. In this paper, we recapitulate an existing cooperative distributed framework, and propose a non-cooperate distributed framework that can operate even with selfish tasks, each of which is only interested in minimizing its own end-to-end delay regardless of achieving the system goal. We then propose how to design utility functions that allow the real-time distributed system to exploit the trade-off. Finally, we demonstrate the validity of the cooperative and non-cooperative frameworks along with the designed utility functions, via simulations.
+                                                        </p>
+                                                        <br>
+                                                        <h4>Bibtex</h4>
+                                                        <p>
+                                                        </p>
+                                                        <br>
+                                                        <h4>Journal Information</h4>
+                                                        <p>
+                                                        ISSN: 2227-7390
                                                         </p>
                                                     </div>
                                                 </div>
